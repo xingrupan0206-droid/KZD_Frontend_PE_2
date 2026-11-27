@@ -36,3 +36,15 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Animals API
+
+Create a `.env.local` file in the project root and add your API Ninjas key:
+
+```env
+VITE_API_NINJAS_KEY=your_api_key
+```
+
+Restart the Vite development server after adding the key. The garden animals section
+fetches eight animal searches from the Animals API. Since this is a frontend-only
+assignment, the API key is sent to the browser and should not be used as a production secret.
